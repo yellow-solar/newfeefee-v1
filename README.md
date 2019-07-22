@@ -1,3 +1,3 @@
 # newfeefee-v1
 
-## How to update git - updated
+## How to update git - updated newshirt-local
