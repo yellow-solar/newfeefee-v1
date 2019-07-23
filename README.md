@@ -22,19 +22,18 @@ You need to install the following:
 
 Activate: 
 `source env_name/bin/activate`
+
 Deactivate: 
 `deactivate`
 
 #### Install requirements.txt
-Check current packages 
-`pip3 freeze`
-( you can save your current package listto save to requirements.txt)
-`pip3 freeze > requirements.txt`
+Check current packages: `pip3 freeze`
+You can save your current package listto save to requirements.txt: `pip3 freeze > requirements.txt`
 
 To install from a requirements package - paste it in the project directory and run the following:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-(see more info https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1)
+[see more info](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1)
 
 
 ##### Bit of python code
