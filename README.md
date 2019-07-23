@@ -1,5 +1,30 @@
 # newfeefee-v1
 
-## How to update git - updated newshirt-local
+### Setup for collab
 
-### Second run
+You need to install the following:
+
+ -- mysql
+ -- python3 with PIP
+
+ Mike, I highly recommend using a virtaul PC, or getting a Mac for interacting ith the servers and codebases
+
+#### Installing packages on system
+sudo apt-get install <package-name>
+sudo apt-get install python3-pip
+
+#### Installing packages on python3
+pip3 install <package-name>
+pip3 install virtualenv
+
+#### Install requirements.txt
+Check current packages 
+pip3 freeze
+save to requirements.txt
+pip3 freeze > requirements.txt
+
+To install from a requirements package - paste it in the project directory and run the following:
+pip install -r requirements.txt
+
+(see more info https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1)
+
